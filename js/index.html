@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Javascript</title>
+    <link rel="stylesheet" href="assets/css/stile.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titolo"></h1>
+        <!--H1 che viene visualizzato con javascript-->
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="addizione">
+
+
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            <h1>Addizione!</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p id="one"><span>Primo Numero</span></p>
+                            <input id="numberOneAdd" type="text" value="">
+                        </td>
+                        <td>
+                        <p  id="two"> Secondo Numero</p>
+                        <input id="numberTwoAdd" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <button onclick="addizione()"> Calcola! </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>Il risultato della tua addizione è <strong id="risultato"></strong></p>
+                        </td>
+                    </tr>
+              
+
+                </table>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="addizione">
+
+
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            <h1>Sottrazione!</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p id="one"><span>Primo Numero</span></p>
+                            <input id="numberOneSott" type="text" value="">
+                        </td>
+                        <td>
+                        <p  id="two"> Secondo Numero</p>
+                        <input id="numberTwoSott" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <button onclick="sottrazione()"> Calcola! </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>Il risultato della tua sottrazione è <strong id="risultato2"></strong></p>
+                        </td>
+                    </tr>
+              
+
+                </table>
+
+            </div>
+        </div>
+
+        
+            
+
+
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!--richiami agli script-->
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/naming.js"></script>
+</body>
+
+</html>
